@@ -12,6 +12,7 @@ import WebKit
 class ViewController: UIViewController {
     @IBOutlet var webView: WKWebView!
     @IBOutlet var indicatorView: UIActivityIndicatorView!
+<<<<<<< HEAD
     
 ////    func firstWebPage(){
 ////        let htmlString = "<h1> Github </h1><p> Check a website whether see like app or not </p><p><a href=\"https://github.com\">Github</a></p>"
@@ -23,6 +24,9 @@ class ViewController: UIViewController {
 //        webView.addObserver(self, forKeyPath: #keyPath(WKWebView.isLoading), options: .new, context: nil)
 //    }
     
+=======
+
+>>>>>>> 02bce983a1f014b203da64bcad9784bfcdd83281
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
